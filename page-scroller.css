@@ -1,4 +1,4 @@
-[data-role="to-top-scroller"] {
+[data-role="page-scroller"] {
     position: fixed;
     z-index: 99;
     right: 10px;
@@ -20,7 +20,7 @@
     display: none;
 }
 
-[data-role="to-top-scroller"]:hover {
+[data-role="page-scroller"]:hover {
     opacity: 0.9;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     filter: alpha(opacity=90);

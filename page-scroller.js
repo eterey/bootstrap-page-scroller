@@ -1,13 +1,13 @@
 $(function() {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
-            $('[data-role="to-top-scroller"]').fadeIn();
+            $('[data-role="page-scroller"]').fadeIn();
         } else {
-            $('[data-role="to-top-scroller"]').fadeOut();
+            $('[data-role="page-scroller"]').fadeOut();
         }
     });
 
-    $('[data-role="to-top-scroller"]').click(function() {
+    $('[data-role="page-scroller"]').click(function() {
         $('body, html').animate({
             scrollTop: 0
         }, 500);
